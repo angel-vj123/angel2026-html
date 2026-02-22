@@ -1,8 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function(){
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('nav a');
-
-    function changeActiveLink() {
+    function changeActiveLink(){
         let index = sections.length;
 
         while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
@@ -12,5 +11,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     changeActiveLink();
-    window.addEventListener('scroll', changeActiveLink);
+    window.addEventListener('scroll'.ChangeActiveLink);
 });
